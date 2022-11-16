@@ -1,0 +1,68 @@
+conky.config = {
+
+background=true,
+update_interval=1,
+double_buffer=true,
+no_buffers=true,
+imlib_cache_size=10,
+
+draw_shades=false,
+draw_outline=false,
+draw_borders=false,
+
+gap_x=60,
+gap_y=50,
+
+alignment="bottom_left",
+
+minimum_height=100,
+minimum_width=0,
+
+own_window=true,
+own_window_type="dock",
+own_window_transparent=true,
+own_window_hints="undecorated,below,sticky,skip_taskbar,skip_pager",
+
+own_window_argb_visual=true,
+own_window_argb_value=0,
+
+use_xft=true,
+xftalpha=1,
+font="Segoe UI Light	:size=10",
+text_buffer_size=256,
+override_utf8_locale=true,
+
+default_color='#D8DEE9',
+
+color0='#D8DEE9',
+color1='#D8DEE9',
+};
+
+
+conky.text = [[
+${font Segoe UI Light:weight=Bold:size=50}${color0}\
+${time %H:%M}\
+${voffset -50}
+${font Segoe UI Light:weight=Bold:size=16}${color0}\
+${time %d %B, %Y}\
+${voffset 5}
+${font Segoe UI Light:weight=Bold:size=12}${color0}\
+CPU usage: ${cpu cpu0}%\
+${voffset 3}
+Storage: ${fs_free /} free\
+${voffset 3}
+${font Segoe UI Light:weight=Bold:size=12}${color0}\
+RAM: ${mem} used | ${memfree} free\
+${voffset 3}
+Swap: ${swap} used | ${swapfree} free\
+${voffset 3} 
+Uptime: ${uptime}\
+${if_running spotify}\
+        ${voffset -40}
+	${image ~/.conky/icons/spotify-icon-transparent.png -p 1,270 -s 44x44}
+        ${voffset 10}
+        ${goto 60}${font Segoe UI Light:weight=Bold:size=15}${exec ~/.conky/scripts/artist.sh}
+        ${voffset -30}
+	${goto 60}${font Segoe UI Light:weight=Bold:size=12}${exec ~/.conky/scripts/title.sh}
+${endif}
+]];
