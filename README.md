@@ -20,7 +20,9 @@ Install guide:
 - $ bash install.sh  
 - $ cd theme  
 - $ bash wallpaper-install.sh  
-- $ bash wallpaper-start.sh
+- $ bash wallpaper-start.sh  
+- $ cd conky-dark-theme
+- $ bash setup.sh
 - Once the installation is completed to start it type: $ conky  
 
 Crontab:
