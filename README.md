@@ -18,9 +18,9 @@ Install guide:
 - $ bash install.sh  
 - $ cd spotify  
 - $ bash install.sh  
-- $ cd theme  
+- $ cd wallpaper  
 - $ bash wallpaper-install.sh  
-- $ bash wallpaper-start.sh  
+- $ bash wallpaper-run.sh  
 - $ cd conky-dark-theme
 - $ bash setup.sh
 - Once the installation is completed to start it type: $ conky  
@@ -29,6 +29,6 @@ Crontab:
 ----------------------
 Changes wallpaper every 30 min:  
 $ crontab -e  
-30 * * * * /bin/bash ~/.wallpaper/wallpaper-start.sh
+30 * * * * bash ~/.wallpaper/wallpaper-run.sh
 
 2022
