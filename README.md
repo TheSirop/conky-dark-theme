@@ -13,8 +13,8 @@ git clone https://github.com/TheSirop/conky-dark-theme.git
 
 Crontab:
 ----------------------
-Changes wallpaper every 30 min:
-$ crontab -e
+Changes wallpaper every 30 min:  
+$ crontab -e  
 30 * * * * /bin/bash ~/.wallpaper/wallpaper-start.sh
 
 2022
