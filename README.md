@@ -20,7 +20,6 @@ Install guide:
 - $ bash install.sh  
 - $ cd wallpaper  
 - $ bash wallpaper-install.sh  
-- $ bash wallpaper-run.sh  
 - $ cd conky-dark-theme
 - $ bash setup.sh
 - Once the installation is completed to start it type: $ conky  
