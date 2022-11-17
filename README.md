@@ -8,8 +8,20 @@ Change desktop background:
 - [How to change desktop background from command line in Unity?](https://askubuntu.com/questions/66914/how-to-change-desktop-background-from-command-line-in-unity)
 
 Install guide:
-----------------------
-git clone https://github.com/TheSirop/conky-dark-theme.git
+----------------------  
+- Open terminal  
+- Run system update command  
+- Finally, use sudo apt install conky-all command to install the full version of the Conky system monitor on your Ubuntu.
+- Run termial command: git clone https://github.com/TheSirop/conky-dark-theme.git  
+- $ cd conky-dark-theme  
+- $ cd fonts
+- $ bash install.sh  
+- $ cd spotify  
+- $ bash install.sh  
+- $ cd theme  
+- $ bash wallpaper-install.sh  
+- $ bash wallpaper-start.sh
+- Once the installation is completed to start it type: $ conky  
 
 Crontab:
 ----------------------
