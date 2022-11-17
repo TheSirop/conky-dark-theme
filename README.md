@@ -11,7 +11,7 @@ Install guide:
 ----------------------  
 - Open terminal  
 - Run system update command  
-- Finally, use sudo apt install conky-all command to install the full version of the Conky system monitor on your Ubuntu.
+- Finally, use sudo apt install conky-all command to install the full version of the Conky system monitor.
 - Run termial command: git clone https://github.com/TheSirop/conky-dark-theme.git  
 - $ cd conky-dark-theme  
 - $ cd fonts
