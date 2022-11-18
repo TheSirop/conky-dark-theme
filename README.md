@@ -1,25 +1,21 @@
 [Conky] Dark Theme
 ===========
 ![Conky Dark Theme](https://cdn.devopsway.net/github/conky-dark-theme-1.png)  
-![Conky Dark Theme](https://cdn.devopsway.net/github/conky-dark-theme-2.png)
 Shows current time, cpu usage, storage, used ram, swap, uptime and currenty played music on spotify 
 
 Install guide:
 ----------------------  
-- Open terminal  
-- Run system update command  
-- Finally, use sudo apt install conky command to install the full version of the Conky system monitor.
-- Run termial command: git clone https://github.com/TheSirop/conky-dark-theme.git  
+- Run system update:  
+  $ sudo apt update  
+- Install the necessary software (Conky, Spotify):  
+  $ sudo apt install conky  
+  $ sudo apt install spotify
+- Run termial command:  
+  $ git clone https://github.com/TheSirop/conky-dark-theme.git  
 - $ cd conky-dark-theme  
-- $ cd fonts
-- $ bash install.sh  
-- $ cd spotify  
-- $ bash install.sh  
-- $ cd wallpaper  
-- $ bash wallpaper-install.sh  
-- $ cd conky-dark-theme
-- $ bash setup.sh
-- Once the installation is completed to start it type: $ conky  
+- $ bash setup.sh  
+- Once the installation is completed to start it type:  
+  $ conky  
 
 Crontab:
 ----------------------
