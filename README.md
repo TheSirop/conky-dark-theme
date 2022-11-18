@@ -8,8 +8,8 @@ Install guide:
 - Run system update:  
   $ sudo apt update  
 - Install the necessary software (Conky, Spotify):  
-  $ sudo apt install conky  
-  $ sudo apt install spotify
+  $ sudo apt install conky -y  
+  $ sudo snap install spotify
 - Run termial command:  
   $ git clone https://github.com/TheSirop/conky-dark-theme.git  
 - $ cd conky-dark-theme  
