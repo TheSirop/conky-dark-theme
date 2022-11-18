@@ -49,7 +49,7 @@ ${voffset 5}
 ${font Segoe UI Light:weight=Bold:size=12}${color0}\
 CPU usage: ${cpu cpu0}%\
 ${voffset 3}
-Storage: ${fs_free /} free\
+Storage /home: ${fs_free /home} free\
 ${voffset 3}
 ${font Segoe UI Light:weight=Bold:size=12}${color0}\
 RAM: ${mem} used | ${memfree} free\
